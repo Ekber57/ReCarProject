@@ -16,6 +16,7 @@ namespace ConsoleUI
            colorManager.Add(color);
 
 
+
             // InMemoryCarDal inMemoryCarDal = new InMemoryCarDal();
             EfCarDal efCarDal = new EfCarDal();
             CarManager carManager = new CarManager(efCarDal);
